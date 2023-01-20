@@ -1,0 +1,98 @@
+*{
+    font-family: "Montserrat";
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    flex-direction: column;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    width: 25% ;
+}
+
+.container h2, span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.container span{
+    color: #ff4d4d;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 17px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-width: 1px;
+    width: 490px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-family: "Titillium Web", sans-serif;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+
+.links:hover{
+    background: rgb(212, 212, 212);
+    color: #ff4d4d;
+    border: 0.5px solid #ff4d4d;
+    font-weight: 1000;
+}
+
+.links-in{
+    font-size: 25px;
+    display: block;
+    padding: 5px;
+    position: relative;
+    bottom: 3.2rem;
+    left: 4rem;
+    color: #ff4d4d;
+}
+
+
+
+@media only screen and (max-width: 650px){
+
+
+    .container{
+        margin-top: 25%;
+    }
+
+    .profile-picture{
+        border-radius: 50%;
+        width: 35% ;
+    }
+    
+
+    .links{
+        width: 350px;
+    }
+
+
+}
+
